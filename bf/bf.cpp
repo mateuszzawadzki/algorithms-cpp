@@ -128,8 +128,8 @@ void solveBellmanFordList(const char* file) {
 }
 
 int main( int argc, const char* argv[]){
-    solveBellmanFordMatrix("matrix.txt");
-    solveBellmanFordList("edges.txt");
+    solveBellmanFordMatrix("bf\\matrix.txt");
+    solveBellmanFordList("bf\\edges.txt");
 }
 
 
